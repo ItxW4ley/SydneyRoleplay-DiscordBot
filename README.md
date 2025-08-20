@@ -1,49 +1,53 @@
-# Sydney Roleplay Bot
--------------------
+# 🌆 Sydney Roleplay Bot
 
-Overview:
+## 📖 Overview
 Sydney Roleplay Bot is a custom-built Discord bot designed to enhance the roleplay experience with advanced moderation, utility, and community tools.
 
--------------------------------------
-Setup Instructions
--------------------------------------
 
-1. Prerequisites:
-   - Node.js v16 or higher
-   - npm (comes with Node.js)
-   - A Discord Bot Token (from the Discord Developer Portal)
 
-2. Clone the Repository:
-   ```git clone https://github.com/YourUsername/sydney-roleplay-bot.git```
-   ```cd sydney-roleplay-bot```
+## ⚙️ Setup Instructions
 
-3. Install Dependencies:
-   npm install
+### 1. Prerequisites
+- [Node.js](https://nodejs.org/) v16 or higher
+- [npm](https://www.npmjs.com/) (comes with Node.js)
+- A Discord Bot Token (create one at the [Discord Developer Portal](https://discord.com/developers/applications))
 
-4. Configure Environment:
-   Create a file named ".env" in the project root and add:
-   DISCORD_TOKEN=your-bot-token-here
+---
 
-5. Run the Bot:
-   ```node srp.js```
+### 2. Clone the Repository
+```bash
+git clone https://github.com/YourUsername/sydney-roleplay-bot.git
+cd sydney-roleplay-bot
+````
 
--------------------------------------
-Running with PM2 (Recommended)
--------------------------------------
 
-1. Install pm2 globally (if not already installed):
-   ```npm install -g pm2```
+### 3. Install Dependencies
 
-2. Start the bot with pm2:
-   ```pm2 start srp.js --name "SydneyRoleplayBot"```
+```bash
+npm install
+```
 
-3. Save the pm2 process list (so it restarts on reboot):
-   ```pm2 save```
 
-4. Enable pm2 startup:
-   ```pm2 startup```
 
--------------------------------------
-Confirmation:
--------------------------------------
-If setup is correct, you should see the bot come online in Discord and the console will show a success message.
+### 4. Configure Environment
+
+Create a `.env` file in the root directory and add your bot token:
+
+```env
+DISCORD_TOKEN=your-bot-token-here
+```
+
+
+### 5. Run the Bot
+
+Start the bot with:
+
+```bash
+node srp.js
+```
+
+## ✅ Confirmation
+
+If setup is correct, the console will show a success message and the bot will appear online in your Discord server.
+
+
