@@ -34,7 +34,57 @@ npm install
 Create a `.env` file in the root directory and add your bot token:
 
 ```env
+# ==============================
+# Sydney Roleplay Bot - .env
+# ==============================
+
+# Discord Configuration
 DISCORD_TOKEN=your-bot-token-here
+CLIENT_ID=your-discord-client-id
+GUILD_ID=your-discord-guild-id
+PREFIX=!
+
+# Appearance
+EMBED_COLOR=#00AEEF
+SUCCESS_EMBED_COLOR=#00FF7F
+ERROR_EMBED_COLOR=#FF4444
+
+# Roles & Permissions
+OWNER_ROLE_ID=123456789012345678
+STAFF_ROLE_ID=123456789012345678
+MOD_ROLE_ID=123456789012345678
+SUPPORT_ROLE_ID=123456789012345678
+
+# Logging Channels
+LOG_CHANNEL_ID=123456789012345678
+ERROR_LOG_CHANNEL_ID=123456789012345678
+MOD_LOG_CHANNEL_ID=123456789012345678
+JOIN_LEAVE_CHANNEL_ID=123456789012345678
+
+# Database (MySQL Example)
+DB_HOST=localhost
+DB_USER=db_user
+DB_PASS=db_password
+DB_NAME=sydney_roleplay
+
+# Optional Features
+WELCOME_MESSAGES=true
+WELCOME_CHANNEL_ID=123456789012345678
+WELCOME_MESSAGE=Welcome to Sydney Roleplay, {user}!
+
+GOODBYE_MESSAGES=true
+GOODBYE_CHANNEL_ID=123456789012345678
+GOODBYE_MESSAGE=Goodbye {user}, we hope to see you again!
+
+# API Keys (Optional)
+OPENAI_API_KEY=your-openai-api-key
+WEATHER_API_KEY=your-weather-api-key
+TRANSLATE_API_KEY=your-translate-api-key
+
+# Server Config
+PORT=3000
+DEBUG=false
+
 ```
 
 
