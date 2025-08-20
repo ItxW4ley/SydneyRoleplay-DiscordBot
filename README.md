@@ -70,7 +70,7 @@ DB_NAME=sydney_roleplay
 # Optional Features
 WELCOME_MESSAGES=true
 WELCOME_CHANNEL_ID=123456789012345678
-WELCOME_MESSAGE=Welcome to Sydney Roleplay, {user}!
+WELCOME_MESSAGE=<:SydneyRoleplay:1403710021484806315> `-` Welcome ${user}, To Sydney Roleplay You Are Member `${servermemberCount}`!
 
 GOODBYE_MESSAGES=true
 GOODBYE_CHANNEL_ID=123456789012345678
